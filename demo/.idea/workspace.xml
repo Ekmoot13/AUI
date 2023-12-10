@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00afba07-8d74-4f80-a6ec-173a8962d4e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/InitializeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/controller/BoatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/controller/BoatDefaultController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/dto/GetBoatResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/dto/GetBoatsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/dto/PatchBoatRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/dto/PutBoatRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/function/BoatToResponseFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/function/BoatsToResponseFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/function/RequestToBoatFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/function/UpdateBoatWithRequestFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/repository/BoatRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/services/BoatDefaultServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boat/services/BoatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boatType/function/RequestToBoatTypeFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boatType/services/BoatTypeDefaultServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boat/src/main/java/com/example/demo/boatType/services/BoatTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boatType/src/main/java/com/example/demo/boatType/event/repository/BoatTypeEventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-rpg-boatType/src/main/java/com/example/demo/boatType/event/repository/BoatTypeEventRestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requests.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/ApplicationCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/Boat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/BoatDefaultService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/BoatRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/BoatService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/BoatType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/BoatTypeDefaultService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/BoatTypeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/BoatTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/InitializeData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/Lab2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/controller/BoatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/controller/BoatDefaultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/controller/BoatTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/controller/BoatTypeDefaultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/dto/GetBoatResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/dto/GetBoatTypeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/dto/GetBoatTypesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/dto/GetBoatsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/dto/PatchBoatRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/dto/PutBoatRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/function/BoatToResponseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/function/BoatTypeToResponseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/function/BoatTypesToResponseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/function/BoatsToResponseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/function/RequestToBoatFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/demo/function/UpdateBoatWithRequestFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/example/demo/Lab2ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2XAFOp1VscmmIAPGOTDDNZ8BG8I" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Tommy/Studia/3_ROK_1_SEM/Projekt_grupowy/MagJob",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Tommy\Studia\3_ROK_1_SEM\AUI\demo_service\simple-rpg-boat\src\main\java\com\example\demo\boatType" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.boat.controller" />
+      <recent name="com.example.demo.boat" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SimpleRpgGatewayApplication">
+    <configuration name="requests | Create new character" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/../simple-rpg-boat/requests.http" index="6" requestIdentifier="Create new character" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | Delete boatType 3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/../simple-rpg-gateway/requests.http" index="11" requestIdentifier="Delete boatType 3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | Get all boatTypes 3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/../simple-rpg-gateway/requests.http" index="8" requestIdentifier="Get all boatTypes 3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | Get all boats" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/../simple-rpg-boat/requests.http" requestIdentifier="Get all boats" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | Get single boatType, not existing" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/../simple-rpg-boatType/requests.http" index="3" requestIdentifier="Get single boatType, not existing" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="demo_service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="demo_service" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleRpgGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple-rpg-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.SimpleRpgGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simpleRPG (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple-rpg (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.simpleRPG" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simpleRPG" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple-rpg" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.simpleRPG" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simpleRPGboat" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple-rpg-boat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.simpleRPGboat" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simpleRPGboatType" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple-rpg-boatType" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.simpleRPGboatType" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simpleRPGboatType" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple-rpg-boatType" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.simpleRPGboatType" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.requests | Delete boatType 3" />
+        <item itemvalue="HTTP Request.requests | Get all boatTypes 3" />
+        <item itemvalue="HTTP Request.requests | Get all boats" />
+        <item itemvalue="HTTP Request.requests | Create new character" />
+        <item itemvalue="HTTP Request.requests | Get single boatType, not existing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00afba07-8d74-4f80-a6ec-173a8962d4e8" name="Changes" comment="" />
+      <created>1698063948520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698063948520</updated>
+      <workItem from="1698063949519" duration="12611000" />
+      <workItem from="1700429131648" duration="11981000" />
+      <workItem from="1700492830251" duration="6291000" />
+      <workItem from="1700592739837" duration="638000" />
+      <workItem from="1701188723995" duration="117000" />
+      <workItem from="1701189115333" duration="661000" />
+      <workItem from="1701189786155" duration="35000" />
+      <workItem from="1701189871857" duration="1058000" />
+      <workItem from="1701367445996" duration="3345000" />
+      <workItem from="1701441090550" duration="1058000" />
+      <workItem from="1701696046449" duration="629000" />
+      <workItem from="1701696691771" duration="4781000" />
+      <workItem from="1701703463940" duration="1960000" />
+      <workItem from="1701705447070" duration="3463000" />
+      <workItem from="1701718623911" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

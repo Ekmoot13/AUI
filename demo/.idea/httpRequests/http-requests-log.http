@@ -1,0 +1,239 @@
+DELETE http://localhost:8083/api/boatTypes/2d9b1e8c-67c5-4188-a911-5f064a63d8cd
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T173348.404.json
+
+###
+
+GET http://localhost:8083/api/boatTypes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T173333.200.json
+
+###
+
+DELETE http://localhost:8083/api/boatTypes/2d9b1e8c-67c5-4188-a911-5f064a63d8cd
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T173323.404.json
+
+###
+
+GET http://localhost:8081/api/boats
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T172424.200.json
+
+###
+
+PUT http://localhost:8081/api/boats/3c6f1eb1-8069-44ab-988f-d7fed2b65d83
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 93
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Lotka",
+  "sailArea": 10,
+  "boatType": "2d9b1e8c-67c5-4188-a911-5f064a63d8cd"
+}
+
+###
+
+GET http://localhost:8082/api/boatTypes/ac4e2683-b2ba-4695-94d9-806a97fce71e
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T172037.404.json
+
+###
+
+GET http://localhost:8082/api/boatTypes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T172009.200.json
+
+###
+
+DELETE http://localhost:8083/api/boats/f08ef7e3-7f2a-4378-b1fb-2922d730c70d
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8083/api/boatTypes/5d1da2ae-6a14-4b6d-8b4f-d117867118d4
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171657.404.json
+
+###
+
+GET http://localhost:8083/api/boatTypes/5d1da2ae-6a14-4b6d-8b4f-d117867118d4
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171654.404.json
+
+###
+
+GET http://localhost:8083/api/boatTypes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171625.200.json
+
+###
+
+GET http://localhost:8083/api/boatTypes/2d9b1e8c-67c5-4188-a911-5f064a63d8cd
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171618.404.json
+
+###
+
+DELETE http://localhost:8083/api/boatTypes/2d9b1e8c-67c5-4188-a911-5f064a63d8cd
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171609.404.json
+
+###
+
+GET http://localhost:8083/api/boatTypes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171559.200.json
+
+###
+
+GET http://localhost:8083/api/boatTypes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171553.200.json
+
+###
+
+GET http://localhost:8083/api/boatTypes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171543.200.json
+
+###
+
+GET http://localhost:8083/api/boats/f08ef7e3-7f2a-4378-b1fb-2922d730c70d
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171526.200.json
+
+###
+
+GET http://localhost:8083/api/boats/f08ef7e3-7f2a-4378-b1fb-2922d730c70d
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171516.200.json
+
+###
+
+GET http://localhost:8083/api/boats/f08ef7e3-7f2a-4378-b1fb-2922d730c70d
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171506.200.json
+
+###
+
+GET http://localhost:8083/api/boats/f08ef7e3-7f2a-4378-b1fb-2922d730c70d
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171455.200.json
+
+###
+
+GET http://localhost:8083/api/boats/f08ef7e3-7f2a-4378-b1fb-2922d730c70d
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T171451.200.json
+
+###
+
+GET http://localhost:8082/api/boatTypes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T164259.200.json
+
+###
+
+GET http://localhost:8081/api/boats/f08ef7e3-7f2a-4378-b1fb-2922d730c70d
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T164059-1.200.json
+
+###
+
+GET http://localhost:8081/api/boats/f08ef7e3-7f2a-4378-b1fb-2922d730c70d
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T164059.200.json
+
+###
+
+GET http://localhost:8081/api/boats
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T164009.200.json
+
+###
+
+GET http://localhost:8080/api/boats
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-28T175536.200.json
+
+###
+

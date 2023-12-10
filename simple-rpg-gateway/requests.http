@@ -1,0 +1,51 @@
+### Get all boats 3
+
+GET http://localhost:8083/api/boats
+
+### Get single boat 3
+
+GET http://localhost:8083/api/boats/f08ef7e3-7f2a-4378-b1fb-2922d730c70d
+
+### Get single boat, not existing 3
+
+GET http://localhost:8083/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+
+### Get boatType boats 3
+
+GET http://localhost:8083/api/boatTypes/5d1da2ae-6a14-4b6d-8b4f-d117867118d4/boats
+
+### Get profession characters, not existing 3
+
+GET http://localhost:8083/api/boatTypes/ac4e2683-b2ba-4695-94d9-806a97fce71e/boats
+
+### Create new character 3
+
+PUT http://localhost:8083/api/boats/3c6f1eb1-8069-44ab-988f-d7fed2b65d83
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+
+{
+  "name": "Lotka",
+  "sailArea": 10,
+  "boatType": "2d9b1e8c-67c5-4188-a911-5f064a63d8cd"
+}
+
+### Delete character 3
+
+DELETE http://localhost:8083/api/boats/f08ef7e3-7f2a-4378-b1fb-2922d730c70d
+
+### Get all boatTypes 3
+
+GET http://localhost:8083/api/boatTypes
+
+### Get single boatType 3
+
+GET http://localhost:8083/api/boatTypes/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+
+### Get single boatType, not existing 3
+
+GET http://localhost:8083/api/boatTypes/ac4e2683-b2ba-4695-94d9-806a97fce71e
+
+### Delete boatType 3
+
+DELETE http://localhost:8083/api/boatTypes/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76

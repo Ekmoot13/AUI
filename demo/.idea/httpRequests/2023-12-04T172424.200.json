@@ -1,0 +1,44 @@
+{
+  "boats": [
+    {
+      "id": "525d3e7b-bb1f-4c13-bf17-926d1a12e4c0",
+      "name": "europa"
+    },
+    {
+      "id": "cc0b0577-bb6f-45b7-81d6-3db88e6ac19f",
+      "name": "420"
+    },
+    {
+      "id": "f08ef7e3-7f2a-4378-b1fb-2922d730c70d",
+      "name": "470"
+    },
+    {
+      "id": "ff327e8a-77c0-4f9b-90a2-89e16895d1e1",
+      "name": "29er"
+    },
+    {
+      "id": "ff327e8a-77c0-4f9b-90a2-89e16845d1e1",
+      "name": "49er"
+    },
+    {
+      "id": "525d3e7b-341f-4c13-bf17-926d1a12e4c0",
+      "name": "openSkiff"
+    },
+    {
+      "id": "525d3e7b-bb1f-4c13-bf17-926d1a12e4c1",
+      "name": "Windsurffing"
+    },
+    {
+      "id": "5d1da2ae-6a14-4b6d-8b4f-d117867118d9",
+      "name": "Kitesurffing"
+    },
+    {
+      "id": "5d1da2ae-6a14-4b6d-8b4f-d117867118d3",
+      "name": "Wing"
+    },
+    {
+      "id": "3c6f1eb1-8069-44ab-988f-d7fed2b65d83",
+      "name": "Lotka"
+    }
+  ]
+}

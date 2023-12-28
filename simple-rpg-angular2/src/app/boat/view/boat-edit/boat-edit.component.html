@@ -1,0 +1,47 @@
+<article *ngIf="boat">
+  <header><h2>Edit boat</h2></header>
+
+  <form class="container"  #form="ngForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col-4 p-2">
+        <div>
+          <label for="name">Name:</label>
+          <input id="name" name="name" [(ngModel)]="boat?.name"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4 p-2">
+        <div>
+          <label for="sailArea">sailArea:</label>
+          <input id="sailArea" name="sailArea" [(ngModel)]="boat?.sailArea"/>
+        </div>
+      </div>
+    </div>
+
+
+    <<div class="row">
+    <div class="col-4 p-2">
+      <fieldset *ngIf="boatTypes">
+        <legend>BoatType:</legend>
+        <div *ngFor="let boatType of boatTypes?.professions">
+          <label>
+            <input type="radio" name="boatType" [(ngModel)]="boat?.boatType" [value]="boatType.id"/>
+            {{boatType.name}}
+          </label>
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="col-2 p-2">
+        <button type="submit">Update</button>
+      </div>
+      <div class="col-2 p-2">
+        <button type="button" (click)="form.resetForm(original)">Reset</button>
+      </div>
+    </div>
+  </form>
+</article>

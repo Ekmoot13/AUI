@@ -1,0 +1,30 @@
+<article *ngIf="boat">
+  <header><h2>{{boat.name}}</h2></header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="row mb-2">
+          <div class="col-6">
+            BoatType ID
+          </div>
+          <div class="col-6">
+            <span>{{boat.boatType.id}}</span>
+          </div>
+          <div class="col-6">
+            BoatType Name
+          </div>
+          <div class="col-6">
+            <span>{{boat.boatType.name}}</span>
+          </div>
+          <div class="col-6">
+            Sail Area
+          </div>
+          <div class="col-6">
+            <span>{{boat.sailArea}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

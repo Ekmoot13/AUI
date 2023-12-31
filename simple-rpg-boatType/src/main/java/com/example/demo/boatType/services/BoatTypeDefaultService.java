@@ -31,8 +31,8 @@ public class BoatTypeDefaultService implements BoatTypeService {
     }
 
     @Override
-    public void create(BoatType profession) {
-        repository.save(profession);
+    public void create(BoatType boatType) {
+        repository.save(boatType);
     }
 
     @Override

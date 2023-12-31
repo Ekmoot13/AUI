@@ -21,5 +21,4 @@ import java.util.UUID;
 public class PutBoatTypeRequest {
 
     private String name;
-    private Integer sailArea;
 }

@@ -1,12 +1,9 @@
 package com.example.demo.boatType.controller;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.ResponseStatus;
 import com.example.demo.boatType.dto.GetBoatTypeResponse;
+import com.example.demo.boatType.dto.PutBoatTypeRequest;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 import com.example.demo.boatType.dto.GetBoatTypesResponse;
 
 import java.util.UUID;
@@ -24,6 +21,15 @@ public interface BoatTypeController {
     GetBoatTypeResponse getBoatType(
             @PathVariable("id")
             UUID id
+    );
+
+    @PutMapping("/api/boatTypes/{id}")
+    @ResponseStatus(HttpStatus.CREATED)
+    void putBoatType(
+            @PathVariable("id")
+            UUID id,
+            @RequestBody
+            PutBoatTypeRequest request
     );
 
     @DeleteMapping("/api/boatTypes/{id}")

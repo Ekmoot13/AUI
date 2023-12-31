@@ -1,0 +1,31 @@
+<article *ngIf="boatType">
+  <header><h2>{{ boatType.name }}</h2></header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="row mb-2">
+          <div class="col-6">
+            BoatType ID
+          </div>
+          <div class="col-6">
+            <span>{{ boatType.id }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4 p-2">
+      <fieldset *ngIf="boats">
+        <legend>Boats for {{ boatType.name }}</legend>
+        <ul>
+          <li *ngFor="let boat of boats.boats">
+            {{ boat.name }}
+          </li>
+        </ul>
+      </fieldset>
+    </div>
+  </div>
+</article>
